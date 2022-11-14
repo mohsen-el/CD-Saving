@@ -23,7 +23,7 @@ Withdraw\
   &nbsp;&nbsp;&nbsp;&nbsp;click withdraw\
 Check benificiary details\
   &nbsp;&nbsp;&nbsp;&nbsp;specify benificiary number\
-  &nbsp;&nbsp;&nbsp;&nbsp;click benificiaries\
+  &nbsp;&nbsp;&nbsp;&nbsp;click benificiaries
 
 In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Savings' contract.
 
