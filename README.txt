@@ -5,6 +5,7 @@ Using version 0.8.7 Compile Saving.sol
 Navigate to deploy & run transactions
 Using Remix VM, select account you wish to be owner account and deploy
 
+![alt text](https://github.com/mohsen-el/CD-Saving/blob/main/artifacts/Assets/Screenshot%202022-11-14%20103251.png)
 Usage:
 Specify accounts details.
   wallet number, first name, last name, release time in unix format, amount, false
