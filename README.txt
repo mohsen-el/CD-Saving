@@ -1,28 +1,29 @@
-REMIX DEFAULT WORKSPACE
+How to run the program:
+Import all the files to REMIX
+Navigate to solidity compiler
+Using version 0.8.7 Compile Saving.sol
+Navigate to deploy & run transactions
+Using Remix VM, select account you wish to be owner account and deploy
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+Usage:
+Specify accounts details.
+  wallet number, first name, last name, release time in unix format, amount, false
+  click addBeneficiary
+Create an account
+  add wallet adress
+  specify eth amount
+  click deposit
+Check ability to withdraw
+  specify wallet adress
+  click availableToWithdraw
+Withdraw
+  choose benificiary wallet
+  click withdraw
+Check benificiary details
+  specify benificiary number
+  click benificiaries
 
-This workspace contains 3 directories:
-
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
-
-SCRIPTS
-
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
-
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Savings' contract.
 
 To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
 Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
