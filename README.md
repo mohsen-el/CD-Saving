@@ -1,5 +1,5 @@
 How to run the program:\
-&nbsp;&nbsp;&nbsp;&nbsp;Import all the files to REMIX\
+Import all the files to REMIX\
 Navigate to solidity compiler\
 Using version 0.8.7 Compile Saving.sol\
 Navigate to deploy & run transactions\
@@ -9,21 +9,21 @@ Using Remix VM, select account you wish to be owner account and deploy\
 
 Usage:\
 Specify accounts details.\
-  *Tabspace* wallet number, first name, last name, release time in unix format, amount, false\
-  *Tabspace*click addBeneficiary\
+  &nbsp;&nbsp;&nbsp;&nbsp;wallet number, first name, last name, release time in unix format, amount, false\
+  &nbsp;&nbsp;&nbsp;&nbsp;click addBeneficiary\
 Create an account\
-  *Tabspace*add wallet adress\
-  *Tabspace*specify eth amount\
-  *Tabspace*click deposit\
+  &nbsp;&nbsp;&nbsp;&nbsp;add wallet adress\
+  &nbsp;&nbsp;&nbsp;&nbsp;specify eth amount\
+  &nbsp;&nbsp;&nbsp;&nbsp;click deposit\
 Check ability to withdraw\
-  *Tabspace*specify wallet adress\
-  *Tabspace*click availableToWithdraw\
+  &nbsp;&nbsp;&nbsp;&nbsp;specify wallet adress\
+  &nbsp;&nbsp;&nbsp;&nbsp;click availableToWithdraw\
 Withdraw\
-  *Tabspace*choose benificiary wallet\
-  *Tabspace*click withdraw\
+  &nbsp;&nbsp;&nbsp;&nbsp;choose benificiary wallet\
+  &nbsp;&nbsp;&nbsp;&nbsp;click withdraw\
 Check benificiary details\
-  *Tabspace*specify benificiary number\
-  *Tabspace*click benificiaries\
+  &nbsp;&nbsp;&nbsp;&nbsp;specify benificiary number\
+  &nbsp;&nbsp;&nbsp;&nbsp;click benificiaries\
 
 In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Savings' contract.
 
