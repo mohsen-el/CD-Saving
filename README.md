@@ -9,7 +9,7 @@ Using Remix VM, select account you wish to be owner account and deploy\
 
 Usage:\
 Specify accounts details.\
-  *Tabspace*wallet number, first name, last name, release time in unix format, amount, false\
+  *Tabspace* wallet number, first name, last name, release time in unix format, amount, false\
   *Tabspace*click addBeneficiary\
 Create an account\
   *Tabspace*add wallet adress\
